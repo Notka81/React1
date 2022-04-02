@@ -10,7 +10,7 @@ ReactDOM.render( <
     React.StrictMode >
     <
     App name = { myName }
-    />  <
-    /React.StrictMode> ,
+    />  < /
+    React.StrictMode > ,
     document.getElementById('root')
 );
