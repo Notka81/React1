@@ -1,9 +1,8 @@
-import './App.css';
 
-const Message = () => {
-        return ( < div className = 'Message-header' >
-            Начнём,
-            учёбу ? < /div>)
+
+const Message = ({ text }) => {
+        return ( <div className = 'Message-header' >
+            {text}</div>)
         }
 
         export default Message;

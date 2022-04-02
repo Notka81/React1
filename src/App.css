@@ -14,14 +14,14 @@
 }
 
 .App-header {
-    background-color: #282c34;
+    background-color: khaki;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: blue;
 }
 
 .App-link {
@@ -38,5 +38,19 @@
 }
 
 .Message-header {
-    color: red;
+    color: royalblue;
+   
+}
+
+.input-block{
+    display: flex;
+    gap: 10px;
+    align-self: center;
+}
+.messages{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+    
 }
