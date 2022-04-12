@@ -32,11 +32,9 @@ ReactDOM.render(
     <React.StrictMode>
      
        <ThemeProvider theme={outerTheme}>
-
           <Checkbox defaultChecked /> 
        
           </ThemeProvider>
-         
   
        <ThemeProvider theme={innerTheme}>
         <Checkbox defaultChecked />
